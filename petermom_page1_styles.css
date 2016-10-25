@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 		* {margin: 0; padding: 0; font-family: 'Malgun Gothic', sans-serif; color:black;}
+        body {max-width: 100%;margin: 0 auto;}
+        .wrap{position: relative;width:1100px; height: auto; margin:0 auto;}
+		.wrap2{min-width:1000px; height:auto; margin:0 auto;}
+		
+		ul {overflow: hidden; display: table; }
+		
+        li {list-style: none;}
+        a {text-decoration: none;}
+		a:hover {color: orange;}
+		
+        img {display:inline-block; border:0; margin:0 auto;}
+        span{display:inline-block; margin:0 auto;}
+		
+		header {width:100%; min-height:145px;}
+		
+		.addressListBar {widht:100%; min-height:85px; background:#e8e7e7;}
+		.addressList{position:absolute; width:100%; text-align:center; margin:0 auto; top:5px;}
+		.addressList span{font-family: 'NanumGothic', sans-serif; color: #f47321; }
+		.addressList li{display:inline-block;min-width:400px;text-algin:center;padding-left:20px;margin:0 auto;}
+		.addressList li p{ margin-top: 10px;font-family: 'NanumGothic', sans-serif;}
+		
+		.addrListCloseButton {position: absolute; right: 10px; margin-top:20px; }
+		
+		.menuAndCustomBar {width:100%; min-height: 60px; background:#f47321;}
+	    .wholeMenu {position:absolute; width:90%; left: 50%; margin-top: 5px;}
+        .customMenu {position: absolute; width:10%; right: 0%; margin-top: 5px;}
+    
+		nav {width:100%; min-height: 60px;}
+		.logo {position: absolute; width: 30%; left: 0px; min-height: 60px; top: 3px;}
+		.mainMenu {position: absolute; width: 58%; left: 18%; top: 50%;}
+		.sideMenu {position: absolute; width: 25%; right:0%; top: 50%;}
+		.search::after {content: url(resources/icon.png); display: inline-block;}
+		.cart {margin-top:7px;}
+		
+        .mainMenu li {float: left; line-height: 50px;padding: 5px 25px;}
+		.sideMenu li {float: left; line-height: 50px;padding: 5px 22px;}
+
+		section {width: 100%;height:auto; margin:0 auto;}
+		.menuPath {text-align:left; margin:35px;}
+		.menuTitle {width:100%; height: 55px; margin-top:45px; margin-bottom:30px;}
+		.shipMenu {width:100%; height: auto; margin:10px;}
+		.shipMenu li {float: left; padding: 5px 6px;}
+		
+		a.button1 {display:block; width:70px; height:86px; background:url(resources/button1.png) no-repeat;}
+		a:hover.button1 {background-position:0 -86px;}
+		a.button2 {display:block; width:70px; height:86px; background:url(resources/button2.png) no-repeat;}
+		a:hover.button2 {background-position:0 -86px;}
+		a.button3 {display:block; width:70px; height:86px; background:url(resources/button3.png) no-repeat;}
+		a:hover.button3 {background-position:0 -86px;}
+		a.button4 {display:block; width:70px; height:86px; background:url(resources/button4.png) no-repeat;}
+		a:hover.button4 {background-position:0 -86px;}
+		a.button5 {display:block; width:70px; height:86px; background:url(resources/button5.png) no-repeat;}
+		a:hover.button5 {background-position:0 -86px;}
+		a.button6 {display:block; width:70px; height:86px; background:url(resources/button6.png) no-repeat;}
+		a:hover.button6 {background-position:0 -86px;}
+		a.button7 {display:block; width:70px; height:86px; background:url(resources/button7.png) no-repeat;}
+		a:hover.button7 {background-position:0 -86px;}
+		a.button8 {display:block; width:70px; height:86px; background:url(resources/button8.png) no-repeat;}
+		a:hover.button8 {background-position:0 -86px;}
+		a.button9 {display:block; width:70px; height:86px; background:url(resources/button9.png) no-repeat;}
+		a:hover.button9 {background-position:0 -86px;}
+		a.button10 {display:block; width:70px; height:86px; background:url(resources/button10.png) no-repeat;}
+		a:hover.button10 {background-position:0 -86px;}
+		
+		.stepTitle1 {position: relative; font-family:'ChosunilboNM'; font-size:25px; color:#f47321; margin-top:42px; margin-bottom:16px; left:130px;}
+		.stepTitle2 {position: absolute; font-family:'ChosunilboNM'; font-size:16px; color:#f47321; right:90px; bottom:16px;}
+		.line { width:1000px; border-style:solid; border-color:#7d7d7d; margin-left:5%;}
+		
+		.aboutStep1 {position:absolute; width:100%; height:auto; margin-top:65px; left: 160px;}
+		.roundImg {max-width:380px; max-height:380px; margin:0 auto;}
+		.explain {position:absolute; font-family:'ChosunilboNM'; font-size:16px; color:black; line-height:35px; text-align:left; top:100px; left:250px;}
+		.goTo {position:absolute; font-family:'ChosunilboNM', sans-serif; color:black; font-size:20px; width:100%; height:auto; margin:0 auto; left:620px; bottom:70px;}
+		a:hober.goTo{color:#f47321;}
+		
+		footer {width: 100%; width:100%; min-height:100px; height: 330px;}
+		
+        .footerMenu {overflow: hidden; width: 100%;height: 90px;}
+        .footerMenuList li {float: left; line-height: 80px; padding: 0px 35px;}
+		
+		a:hover.footerMenuList{ text-decoration:underline; color:organe}
+		.copyright1 {overflow: hidden;text-align:center; width: 100%; max-height: 80px; font-size: 15px; margin-bottom:10px;}
+        
+		.footerBar {width:100% ; min-height: 88px; background:#e8e7e7; text-align:center; line-height: 88px; }
+      	footerBar .wrap .copyright2 {width:100%; position: absolute; left:50%; top: 50%;}
+		
