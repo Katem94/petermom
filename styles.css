@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 		* {margin: 0; padding: 0; font-family: 'Malgun Gothic', sans-serif; color:black;}
+        body {max-width: 100%;margin: 0 auto;}
+        .wrap{position: relative;width:1100px; height: auto; margin:0 auto;}
+		.wrap2{min-width:1000px; height:auto; margin:0 auto;}
+		
+		ul {overflow: hidden; display: table; }
+		
+        li {list-style: none;}
+        a {text-decoration: none;}
+		a:hover {color: orange;}
+		
+        img {display:inline-block; border:0; margin:0 auto;}
+        span{display:inline-block; margin:0 auto;}
+		
+		header {width:100%; min-height:145px;}
+		
+		.addressListBar {widht:100%; min-height:85px; background:#e8e7e7;}
+		.addressList{position:absolute; width:100%; text-align:center; margin:0 auto; top:5px;}
+		.addressList span{font-family: 'NanumGothic', sans-serif; color: #f47321; }
+		.addressList li{display:inline-block;min-width:400px;text-algin:center;padding-left:20px;margin:0 auto;}
+		.addressList li p{ margin-top: 10px;font-family: 'NanumGothic', sans-serif;}
+		
+		.addrListCloseButton {position: absolute; right: 10px; margin-top:20px; }
+		
+		.menuAndCustomBar {width:100%; min-height: 60px; background:#f47321;}
+	    .wholeMenu {position:absolute; width:90%; left: 50%; margin-top: 5px;}
+        .customMenu {position: absolute; width:10%; right: 0%; margin-top: 5px;}
+    
+		nav {width:100%; min-height: 60px;}
+		.logo {position: absolute; width: 30%; left: 0px; min-height: 60px; top: 3px;}
+		.mainMenu {position: absolute; width: 58%; left: 18%; top: 50%;}
+		.sideMenu {position: absolute; width: 25%; right:0%; top: 50%;}
+		.search::after {content: url(resources/icon.png); display: inline-block;}
+		.cart {margin-top:7px;}
+		
+        .mainMenu li {float: left; line-height: 50px;padding: 5px 25px;}
+		.sideMenu li {float: left; line-height: 50px;padding: 5px 22px;}
+
+		section {text-align:center;width: 100%;height: auto;float: left;margin:0 auto;}
+		
+		footer {width: 100%; width:100%; min-height:100px; height: 330px;}
+		
+        .footerMenu {overflow: hidden; width: 100%;height: 90px;}
+        .footerMenuList li {float: left; line-height: 80px; padding: 0px 35px;}
+		
+		a:hover.footerMenuList{ text-decoration:underline; color:organe}
+		.copyright1 {overflow: hidden;text-align:center; width: 100%; max-height: 80px; font-size: 15px; margin-bottom:10px;}
+        
+		.footerBar {width:100% ; min-height: 88px; background:#e8e7e7; text-align:center; line-height: 88px; }
+      	footerBar .wrap .copyright2 {width:100%; position: absolute; left:50%; top: 50%;}
+		
+		.modal-overlay{position:fixed;width:100%;height:100%;top:0;left:0;bottom:0;right:0;background:rgba(0,0,0,0.6);z-index:999}
+		
+		
+		.loginWindow{position: absolute; width: 1375px; height: 720px; margin: 0 auto; left:10%; top:8%; background:white; border:solid; border-color:#f47321; z-index: 10000; position: absolute; border:solid; border-color:#f47321; border-radius: 5px; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); background-color: #fff; box-shadow: 2px 2px 20px #333;} 
+		.loginWindowCloseButton{position: absolute; top:15px; right:15px;}
+		.loginWindow .wrap{min-width:1250px; min-height:615px; margin-top:55px; background:#f9b990;}
+		.addImgSection{display: inline-block; position:absolute; min-width: 795px; min-height: auto; margin:0 auto; left:0%;}
+		.loginSection{display: inline-block; position: absolute; min-width:455px; min-height: auto; margin:0 auto; right:0px; background:black;}
+		.loginWindow2{display: inline-block; position: absolute; min-width: 365px; min-height:492px; margin-top:60px; margin-left: 43px; background: white; border:solid; border-color:#f47321; text-align:center;}
+		.loginWrap{max-width:300px; min-height: 444px; margin-top:30px; margin-left:32px;}
+		.loginWrap p {font-family: 'BM DoHyeon', sans-serif;}
+				
+		.loginWrap span a{font-family: 'BM DoHyeon', sans-serif; color: black; font-size:12px;}
+		.loginWrap span a:hover{color: orange;}
+		.loginWrap span {margin-top: 15px; padding: 5px 15px;}
+		.welcomeback{margin-top:10px;}
+		.id { font-size:12px; text-align:left; margin-top: 10px; margin-left:20px;}
+		.idBox{margin-top: 10px;}
+		.pass {font-size:12px; text-align:left; margin-top: 15px; margin-left:20px;}
+		.passBox{margin-top: 10px;}
+		.loginButton{margin-top: 20px; margin-right:0px;}
+		.loginLine{margin-top: 15px;}
+		.facebook{margin-top: 10px;}
+		.google{margin-top: 10px;}
+		
+		/*
+		.loginWindow{z-index: 10000; position: absolute; width: 50%; height: 670px ;border:solid; border-color:#f47321; border-radius: 5px; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); background-color: #fff; box-shadow: 2px 2px 20px #333;}
+		.loginWindowCloseButton{position: absolute; top:15px; right:15px;}
+		.loginWindow .wrap{max-width:580px; min-height:565px; margin-top:55px; background:#f9b990;}
+		.addImgSection{display: inline-block; position:absolute; min-width: 795px; min-height: auto; margin:0 auto; left:0%;}
+		.loginSection{display: inline-block; position: absolute; min-width:455px; min-height: auto; margin:0 auto; right:0px; background:black;}
+		.loginWindow2{display: inline-block; position: absolute; min-width: 365px; min-height:492px; margin-top:38px; margin-left: 43px; background: white; border:solid; border-color:#f47321; text-align:center;}
+		.loginWrap{max-width:300px; min-height: 444px; margin-top:30px; margin-left:32px;}
+		.loginWrap p {font-family: 'BM DoHyeon', sans-serif;}
+				
+		.loginWrap span a{font-family: 'BM DoHyeon', sans-serif; color: black; font-size:12px;}
+		.loginWrap span a:hover{color: orange;}
+		.loginWrap span {margin-top: 15px; padding: 5px 15px;}
+		.welcomeback{margin-top:10px;}
+		.id { font-size:12px; text-align:left; margin-top: 10px; margin-left:20px;}
+		.idBox{margin-top: 10px;}
+		.pass {font-size:12px; text-align:left; margin-top: 15px; margin-left:20px;}
+		.passBox{margin-top: 10px;}
+		.loginButton{margin-top: 20px;}
+		.loginLine{margin-top: 15px;}
+		.facebook{margin-top: 10px;}
+		.google{margin-top: 10px;}
+		*/
